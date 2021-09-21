@@ -377,13 +377,20 @@ header {
 }
 .contact_phone .phone,
 .contact_phone .site,
-.contact_phone .whatsapp {
+.contact_phone .whatsapp,
+.contact_phone .instagram {
     cursor: pointer;
     position: relative;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;   
 }
 .contact_phone .phone .icon,
 .contact_phone .site .icon,
-.contact_phone .whatsapp .icon {
+.contact_phone .whatsapp .icon,
+.contact_phone .instagram .icon {
     position: relative;
     width: 58px;
     height: 58px;
@@ -392,7 +399,8 @@ header {
 }
 .contact_phone .phone .icon img,
 .contact_phone .site .icon img,
-.contact_phone .whatsapp .icon img {
+.contact_phone .whatsapp .icon img,
+.contact_phone .instagram .icon img {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -400,7 +408,8 @@ header {
 }
 .contact_phone a.phone,
 .contact_phone a.site,
-.contact_phone a.whatsapp {
+.contact_phone a.whatsapp,
+.contact_phone a.instagram {
     text-decoration: none;
     display: flex;
     color: #ffffff;
@@ -413,28 +422,18 @@ header {
     margin: 0 auto;
 }
 .contact_phone .phone {
-    margin-bottom: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;    
     background-image: linear-gradient(223deg, #03d55b 0%, #01aa2e 100%);
 }
 .contact_phone .site {
-    margin-bottom: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;    
     box-shadow: 0 16px 31px rgba(25, 121, 246, 0.45);
     background-image: linear-gradient(225deg, #2084ff 0%, #0052d4 100%);
 }
 .contact_phone .whatsapp {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;    
     background-color: #55cd6c;
+}
+.contact_phone .instagram {
+    margin-bottom: 0;
+    background-image: radial-gradient(circle 393px at left, #ffdd55 0%, #ffcf49 4%, #ffa92b 11%, #ff8a12 17%, #ff7325 23%, #ff543f 30.000001907348633%, #fc5245 42%, #e64771 54.000003814697266%, #d53e91 65%, #cc39a4 76%, #c837ab 100%);
 }
 footer {
     background: #fff;
