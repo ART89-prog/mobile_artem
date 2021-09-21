@@ -370,13 +370,23 @@ header {
 }
 .contact_phone .phone,
 .contact_phone .site,
-.contact_phone .whatsapp {
+.contact_phone .whatsapp,
+.contact_phone .instagram {
     cursor: pointer;
-    position: relative;
+    position: relative;    
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 11px;   
+    height: 53px;
+    width: 100%; 
+    border-radius: 8px;  
 }
 .contact_phone a.phone,
 .contact_phone a.site,
-.contact_phone a.whatsapp {
+.contact_phone a.whatsapp,
+.contact_phone a.instagram {
     text-decoration: none;
     display: flex;
     color: #ffffff;
@@ -388,18 +398,6 @@ header {
 .contact_phone .icon {
     margin-right: 9px;
 }
-.contact_phone .phone,
-.contact_phone .site,
-.contact_phone .whatsapp {
-    margin-bottom: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 11px;   
-    height: 53px;
-    width: 100%; 
-    border-radius: 8px;  
-}
 .contact_phone .phone {
     box-shadow: 4px 6px 23px rgba(169, 169, 169, 0.07);
     background: #1cc33a;
@@ -410,6 +408,10 @@ header {
 }
 .contact_phone .whatsapp {
     background-color: #55cd6c;
+}
+.contact_phone .instagram {
+    background-image: radial-gradient(circle 393px at left, #ffdd55 0%, #ffcf49 4%, #ffa92b 11%, #ff8a12 17%, #ff7325 23%, #ff543f 30.000001907348633%, #fc5245 42%, #e64771 54.000003814697266%, #d53e91 65%, #cc39a4 76%, #c837ab 100%);
+    margin-bottom: 0;
 }
 footer {
     padding: 15px 0 5px;
